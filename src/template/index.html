@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>贪吃蛇</title>
+</head>
+
+<body>
+    <button type="button" id="start">开始</button>
+    <div>
+        <!-- 游戏区域 -->
+        <div id="gameArea"></div>
+    </div>
+</body>
+
+<script src="./snakeself.js"></script>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 2px;
+
+    }
+
+    .space {
+        background-color: white;
+    }
+
+    .snake {
+        background-color: black;
+    }
+
+    .food {
+        background-color: red;
+    }
+
+    .gameover {
+
+        position: absolute;
+        font-size: 36px;
+        color: aqua;
+        width: 200px;
+        text-align: center;
+    }
+
+    #gameArea {
+        float: left;
+        position: relative;
+        border: 1px solid black;
+    }
+</style>
+
+</html>
